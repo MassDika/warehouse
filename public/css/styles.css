@@ -1,0 +1,79 @@
+/* Sidebar styleing */
+    .sidebar {
+        background: linear-gradient(135deg, #312e81 60%, #6366f1 100%);
+        min-width: 280px;
+        color: #fff;
+    }
+
+    .sidebar .nav-link {
+        color: #e0e7ff;
+        border-radius: 0.7rem;
+        margin-bottom: 0.2rem;
+        transition: background 0.2s, color 0.2s;
+    }
+
+    .sidebar .nav-link.active,
+    .sidebar .nav-link:hover {
+        background: #fff;
+        color: #312e81 !important;
+        font-weight: bold;
+    }
+
+    .sidebar .profile-img {
+        border: 3px solid #fff;
+        box-shadow: 0 2px 8px rgba(99, 102, 241, 0.15);
+    }
+
+    /* Card styleing */
+    .card-modern {
+        border-radius: 1.2rem;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        background: linear-gradient(135deg, #f8fafc 60%, #e0e7ff 100%);
+        transition: transform 0.2s;
+    }
+
+    .card-modern:hover {
+        transform: translateY(-4px) scale(1.03);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    }
+
+    .icon-modern {
+        background: linear-gradient(135deg, #6366f1 40%, #0ea5e9 100%);
+        color: #fff;
+        border-radius: 10%;
+        padding: 12px;
+        font-size: 2.5rem;
+        margin-right: 1rem;
+        box-shadow: 0 2px 8px rgba(99, 102, 241, 0.15);
+    }
+
+    .card,
+    .list-group-item {
+        animation: fadeInUp 0.7s;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Log out Styleing */
+    .btn-danger {
+        border-radius: 2rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .badge {
+        font-size: 1rem;
+        border-radius: 1rem;
+        padding: 0.5em 1em;
+    }
+

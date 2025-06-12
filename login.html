@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/login.css">
+    <title>Login Page - SMLKM</title>
+    <!-- Link favicon -->
+    <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <video autoplay muted loop playsinline id="bgVideo">
+        <source src="/public/videos/856857-uhd_4096_2160_30fps.mp4" type="video/mp4">
+        <!-- Bisa tambahkan WebM/OGV untuk fallback jika mau -->
+        Your browser does not support the video tag.
+    </video>
+    <h2 style="color: white;">Selamat Datang Di TYROO | WMS</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-in-container">
+            <form>
+                <h1>LogIn</h1>
+                <div class="social-container">
+                    <img src="public/images/Brand_logo.png" alt="brand logo" width="70" height="70">
+                </div>
+                <span>Silahkan Masuk Dengan Akun Anda</span>
+                <input type="text" placeholder="Username" required />
+                <input type="password" placeholder="Password" required />
+                <a href="#">Lupa Password ?</a>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>TYROO</h1>
+                    <p>Dengan antarmuka yang ramah pengguna dan fitur yang terus dikembangkan, kami berkomitmen untuk
+                        mendukung kelancaran operasional Anda setiap hari. Silakan login untuk mulai menggunakan sistem
+                        dan nikmati kemudahan dalam mengelola gudang secara modern dan terintegrasi.</p>
+                    <button class="ghost" id="signIn">Prev Page</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>TYROO WAREHOUSE</h1>
+                    <p>Kelola data gudang Anda dengan mudah, cepat, dan efisien.
+                        Masuk ke dalam sistem untuk memantau stok, mengatur pengiriman, serta memastikan operasional
+                        gudang berjalan lancar dan terorganisir.</p>
+                    <button class="ghost" id="signUp">Next Page</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            &copy; 2025 Kelompok 1 | Semua akan disesuaikan.
+            <br>
+            <a href="" target="_blank">Privacy Policy</a> | <a href="" target="_blank">Terms of Service</a>
+        </p>
+    </footer>
+</body>
+<!-- Sweetalert animation -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+<script src="/public/js/login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
